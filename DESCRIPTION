@@ -1,13 +1,12 @@
 Package: leaflettools
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Widgets supplementaires pour leaflet
+Version: 0.0.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Yohann",
+           family = "Mansiaux",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "y.mansiaux@bordeaux-metropole.fr")
+Description: Test d'ajout de widgets (inspire de leaflet.extras).
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
@@ -19,5 +18,7 @@ Suggests:
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Imports: 
+    leaflet,
+    htmltools,
     magrittr
 Config/testthat/edition: 3
