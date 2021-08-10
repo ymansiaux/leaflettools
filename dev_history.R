@@ -3,6 +3,10 @@ usethis::use_gpl3_license()
 
 usethis::use_vignette("leaflettools")
 
+usethis::use_package("htmltools")
+usethis::use_package("leaflet")
+
+
 usethis::use_pipe()
 
 usethis::use_testthat()
