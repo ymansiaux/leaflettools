@@ -12,7 +12,7 @@ var offsetX = latlng2[1] - latlng1[1],
 var r = Math.sqrt( Math.pow(offsetX, 2) + Math.pow(offsetY, 2) ),
 	theta = Math.atan2(offsetY, offsetX);
 
-var thetaOffset = (3.14/10);
+var thetaOffset = options.thetaOffset;
 
 var r2 = (r/2)/(Math.cos(thetaOffset)),
 	theta2 = theta + thetaOffset;

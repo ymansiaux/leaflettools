@@ -19,7 +19,7 @@
 #'                     weight = 10
 #'                   )
 #'  )
-addBezierCurve = function(map, options = list(lng1, lat1, lng2, lat2, color, weight)) {
+addBezierCurve = function(map, options = list(lng1, lat1, lng2, lat2, color, weight, thetaOffset = 3.14/10)) {
   map$dependencies <- c(map$dependencies, list(html_dependency_leaflet_curve()))
 
   invokeMethod(
